@@ -10,7 +10,7 @@
     grid-template-areas: "head head head"
                          "nav main main"
                          "foot foot foot";
-    grid-template-rows: 100px 1fr 30px;
+    grid-template-rows: 100px 1fr 100px;
     grid-template-columns: 200px 1fr 150px;
   }
   
@@ -33,6 +33,7 @@
   #pagina > footer {
     grid-area: foot;
     background-color: #8cffa0;
+    
   }
 
   #pagina > aside {
