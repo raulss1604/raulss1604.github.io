@@ -25,26 +25,26 @@
   
   #pagina > nav {
     grid-area: nav;
-    background-color: #ffa08c;
+    background-color: #c2d4db;
   
   }
   
   #pagina > main {
     grid-area: main;
-    background-color: #c1c1c1;
+    background-color: #b8c0e8;
     padding-bottom: 80px;
   }
   
   #pagina > footer {
     grid-area: footer;
-    background-color: #8cffa0;
-    height: 120PX;
+    background-color: #8ca0ff;
+    height: 120px;
     
   }
 
   #pagina > aside {
     grid-area: aside;
-    background-color:blueviolet;
+    background-color: #8ca0ff;
   }
 
 .flexbox1{
@@ -61,7 +61,7 @@ li{
 }
 
 li:hover{
-  background-color: #f07a62;
+  background-color: #ababab;
   font-size: 110%;
   padding: 7px;
   margin-left: -3px;
@@ -141,8 +141,25 @@ li:hover{
   border-radius: 50px;
 }
 
+.img_logo{
+  height: 80px;
+  width: 100px;
+  margin-left: 120px;
+  border-radius: 20px;
+}
+
 a {
   text-decoration: none;
+}
+
+.tabla {
+  width: 100%;
+  text-align: center;
+}
+
+td {
+  text-align: center;
+  padding-top: 20px;
 }
 
 @media screen and (max-width: 480px){
